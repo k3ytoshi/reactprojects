@@ -1,0 +1,62 @@
+body,
+html {
+height:100%;
+width:100%;
+    font-family: 'Doppio One', sans-serif;
+}
+
+
+
+
+header.startup {
+  background-position: center;
+  background-image: url("img.jpg");
+  background-size: cover;
+  height: 100%;
+  -webkit-webkit: cover;
+  -moz-webkit: cover;
+  -ms-webkit: cover;
+  -o-webkit: cover;
+  margin-top:inherit;
+}
+
+header.startup hr {
+  margin-top:4.6em;
+
+}
+
+header.startup h1 {
+  font-size: 3em;
+  margin-top: -5.4em;
+  text-transform: uppercase;
+
+
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+
+
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
+
+.btn-primary {
+  background-color:rgba(0, 0, 0, 10) ;
+  border-color: white;
+
+
+}
+.btn-primary:hover {
+  background-color: #e8e8e8;
+  border-color: black;
+  color:black;
+  border-width: 4px;
+  cursor: pointer;
+  font-weight:700;
+
+}
